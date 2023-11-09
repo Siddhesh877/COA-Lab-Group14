@@ -2,14 +2,14 @@
 
 ## PERFORMANCE REPORT
 
-## With Warp Sharing
+## With Warp Sharing (IPC)
 |  | Pathfinder | Hotspot | BFS | 3MM | 3DCONV | 
 | --- | --- | --- | --- | --- | --- |
 | kaws | 693 | 2492 | 105 | 38.69 | 299.1 |
 | gto | 680 | 2442 | 103 | 35.98 | 293.6 |
 | lrr | 674 | 2159 | 99 | 37.14 | 276.4 |
 
-## Without Warp Sharing
+## Without Warp Sharing (IPC)
 
 |  | Pathfinder | Hotspot | BFS | 3MM | 3DCONV | 
 | --- | --- | --- | --- | --- | --- |
