@@ -28,7 +28,7 @@ Search for "COA_Endsem_Project" in shader.cc, shader.h, gpp-sim.cc, abstract_har
 
 
 
-##Setup
+## Setup
 
 Welcome to GPGPU-Sim, a cycle-level simulator modeling contemporary graphics
 processing units (GPUs) running GPU computing workloads written in CUDA or
