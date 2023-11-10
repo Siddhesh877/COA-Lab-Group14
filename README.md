@@ -18,7 +18,8 @@
 | lrr | 672 | 2154 | 97 | 36.38 | 270.7 |
 
 ## Performance Comparision
-![% IPC](https://github.com/Siddhesh877/COA-Lab-EndSem/assets/98006849/c6a77bc6-2f8c-4b6b-9cb8-801c28e49024)
+![% IPC](https://github.com/Siddhesh877/COA-Lab-Group14/assets/98006849/ab081343-b1e5-4ba9-9137-06dc14386d95)
+
 
 ## Note:
 Search for "COA_Endsem_Project" in shader.cc, shader.h, gpp-sim.cc, abstract_hardware_model.h to see the modifications
