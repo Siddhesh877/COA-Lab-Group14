@@ -2,14 +2,14 @@
 
 ## PERFORMANCE REPORT
 
-## With Warp Sharing
+## With Warp Sharing (IPC)
 |  | Pathfinder | Hotspot | BFS | 3MM | 3DCONV | 
 | --- | --- | --- | --- | --- | --- |
 | kaws | 693 | 2492 | 105 | 38.69 | 299.1 |
 | gto | 680 | 2442 | 103 | 35.98 | 293.6 |
 | lrr | 674 | 2159 | 99 | 37.14 | 276.4 |
 
-## Without Warp Sharing
+## Without Warp Sharing (IPC)
 
 |  | Pathfinder | Hotspot | BFS | 3MM | 3DCONV | 
 | --- | --- | --- | --- | --- | --- |
@@ -18,12 +18,17 @@
 | lrr | 672 | 2154 | 97 | 36.38 | 270.7 |
 
 ## Performance Comparision
-
-![plot](/Performance_KAWS/%25%20IPC.svg)
+![% IPC](https://github.com/Siddhesh877/COA-Lab-EndSem/assets/98006849/c6a77bc6-2f8c-4b6b-9cb8-801c28e49024)
 
 ## Note:
 Search for "COA_Endsem_Project" in shader.cc, shader.h, gpp-sim.cc, abstract_hardware_model.h to see the modifications
 
+
+
+
+
+
+## Setup
 
 Welcome to GPGPU-Sim, a cycle-level simulator modeling contemporary graphics
 processing units (GPUs) running GPU computing workloads written in CUDA or
